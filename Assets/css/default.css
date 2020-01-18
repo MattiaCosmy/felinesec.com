@@ -1,0 +1,115 @@
+html::-webkit-scrollbar {
+    background: transparent;
+    height: 20px;
+    width: 20px
+}
+
+html::-webkit-scrollbar-track {
+    border-radius: 20px;
+    box-sizing: content-box;
+    width: 6px
+}
+
+html::-webkit-scrollbar-thumb {
+    background-clip: content-box;
+    border: 7px solid transparent;
+    border-radius: 20px;
+    box-sizing: content-box;
+    min-height: 30px;
+    width: 6px
+}
+
+html,
+body {
+    font-family: "Heebo", Arial, Helvetica, sans-serif;
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-weight: 900;
+    margin: 10px 0 10px 0;
+}
+
+p {
+    line-height: 30px;
+    font-size: .9em;
+}
+
+header ul li {
+    display: inline-table;
+}
+
+header ul li a,
+footer ul li a {
+    padding: 4px 0 8px 0;
+    display: block;
+    font-size: .95em;
+}
+
+header ul li a>i.material-icons,
+footer ul li a>i.material-icons {
+    font-size: .96em;
+    margin: -2px 0 0 0;
+    position: relative;
+    top: 2px;
+}
+
+header {
+    padding: 6px 0 0 0;
+}
+
+header ul {
+    float: right;
+}
+
+.clearfix {
+    clear: both;
+}
+
+main {
+    padding: 30px 0;
+}
+
+header ul li a {
+    padding: 13px 18px 14px 18px;
+}
+
+footer p {
+    line-height: 21px;
+    font-size: .9em;
+}
+
+footer span {
+    display: block;
+    line-height: 60px;
+    opacity: .3;
+    font-size: .9em;
+    font-weight: 900;
+}
+
+footer {
+    margin: 40px 0 0 0;
+}
+
+footer ul li b {
+    font-weight: 900;
+    margin: 10px 0 20px 0;
+    display: block;
+    color: #fff;
+    font-size: 1.2em;
+}
+
+footer small {
+    font-size: .7em;
+    opacity: .7;
+}

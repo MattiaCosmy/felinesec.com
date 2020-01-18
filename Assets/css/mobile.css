@@ -1,0 +1,58 @@
+@media screen and (max-width: 745px) {
+    body {
+        margin: 47px 0 0 0;
+    }
+
+    .fs-toggle {
+        display: block;
+        float: right;
+        margin: 4px 10px 0 0;
+    }
+
+    header ul {
+        float: initial;
+        margin: 20px 0 20px 0;
+        display: none;
+    }
+
+    header ul li {
+        display: block;
+    }
+
+    .fs-brand {
+        height: 22px;
+        width: 112px;
+        margin: 4px 0 0 16px;
+    }
+
+    header {
+        min-height: 41px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+    }
+
+    .fs-section {
+        padding: 20px;
+    }
+
+    .fs-flex {
+        display: initial;
+    }
+    
+    .fs-col {
+        width: initial;
+        padding: 0 20px 10px;
+    }
+    
+    .fs-padding {
+        padding: 30px 0 10px 0;
+    }
+
+    .fs-toggle:hover+ul,
+    .fs-toggle:active+ul,
+    .fs-toggle:focus+ul {
+        display: block;
+    }
+}

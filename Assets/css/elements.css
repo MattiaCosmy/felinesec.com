@@ -1,0 +1,111 @@
+.fs-content {
+    max-width: 1120px;
+    margin: 0 auto;
+}
+
+.fs-brand {
+    background-image: url('../images/brand-inline.png');
+    display: inline-table;
+    height: 32px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 145px;
+    margin: 4px 0 0 0;
+}
+
+.fs-brand.fs-brand--extended {
+    background-image: url('../images/brand.svg');
+    width: 66px;
+    height: 76px;
+    margin: 0 0 10px 0;
+}
+
+.fs-section h2 {
+    font-size: 1.5em;
+}
+
+.fs-padding {
+    padding: 70px 0 40px 0;
+}
+
+.fs-flex {
+    display: flex;
+}
+
+.fs-col {
+    width: 50%;
+}
+
+.fs-section h2 span {
+    padding: 0 4px 0 4px;
+}
+
+.fs-page--home main {
+    padding: 0;
+}
+
+.fs-section {
+    padding: 40px 0 40px 0;
+}
+
+.fs-section p {
+    font-size: 1.08em;
+}
+
+.fs-section:hover,
+header ul li a:hover {
+    transition: all .2s ease-out
+}
+
+.fs-buttons {
+    margin: 30px 0 0 0;
+}
+
+.fs-button {
+    display: inline-block;
+    padding: 10px;
+}
+
+.fs-button.fs-button--link {
+    text-decoration: underline;
+}
+
+.fs-toggle {
+    display: none;
+}
+
+.fs-return {
+    margin: 10px 0 0 0;
+}
+
+.fs-page--text main h1 {
+    font-size: 2em;
+}
+
+.fs-align--center {
+    text-align: center;
+}
+
+.fs-card {
+    padding: 10px 20px;
+    margin: 0 5px 10px 5px;
+    width: 20%;
+    max-width: 320px;
+    display: inline-table;
+    overflow: hidden;
+    vertical-align: top;
+}
+
+.fs-pic {
+    display: block;
+    width: 82px;
+    height: 82px;
+    background-size: cover;
+    border-radius: 3px;
+    margin: 20px auto 30px;
+}
+
+.fs-card--details {
+    margin: 20px -20px -10px -20px;
+    padding: 24px 20px 30px;
+}
