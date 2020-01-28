@@ -32,6 +32,7 @@ header ul li a:hover,
 header ul li.selected a,
 .fs-sections .fs-section:nth-child(even) h2 span {
     background-color: #1b1d1d;
+    border-radius: 8px 8px 0px 0px;
 }
 
 header,
@@ -44,6 +45,7 @@ footer,
 .fs-section h2 span,
 .fs-sections .fs-section:not(.fs-section--nohover):hover,
 .fs-return a {
+    transition: color 1s ease;
     color: #58d8dd;
 }
 
@@ -58,10 +60,11 @@ footer,
 }
 
 .fs-button:hover {
+    transition: background-color 0.5s ease;
     background-color: #ffffff;
     color: #1b1d1d;
 }
 
 .fs-card--details {
     background-color: #202323;
-}
+}   
