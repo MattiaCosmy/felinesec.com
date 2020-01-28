@@ -1,6 +1,10 @@
 .fs-content {
     max-width: 1120px;
     margin: 0 auto;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 15px;
+    letter-spacing: 0.8px;
 }
 
 .fs-brand {
@@ -61,9 +65,14 @@ header ul li a:hover {
     margin: 30px 0 0 0;
 }
 
+.fs-button--dist {
+    margin: 2px;
+}
 .fs-button {
     display: inline-block;
-    padding: 10px;
+    padding: 12px;
+    border-radius: 5px;
+    font-weight: bold;
 }
 
 .fs-button.fs-button--link {
@@ -88,12 +97,13 @@ header ul li a:hover {
 
 .fs-card {
     padding: 10px 20px;
-    margin: 0 5px 10px 5px;
+    margin: 0 20px 10px 20px;
     width: 20%;
-    max-width: 320px;
     display: inline-table;
+    max-width: 320px;
     overflow: hidden;
     vertical-align: top;
+    border-radius: 5px;
 }
 
 .fs-pic {

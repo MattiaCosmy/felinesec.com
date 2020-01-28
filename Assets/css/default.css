@@ -65,7 +65,7 @@ footer ul li a>i.material-icons {
 }
 
 header {
-    padding: 6px 0 0 0;
+    padding: 8px 0 0 0;
 }
 
 header ul {
@@ -81,7 +81,8 @@ main {
 }
 
 header ul li a {
-    padding: 13px 18px 14px 18px;
+    padding: 16px 20px 16px 20px;
+    margin: 0px 5px 0px 0px;
 }
 
 footer p {
