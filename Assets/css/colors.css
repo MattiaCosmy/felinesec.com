@@ -31,7 +31,7 @@ body,
 header ul li a:hover,
 header ul li.selected a,
 .fs-sections .fs-section:nth-child(even) h2 span {
-    background-color: #1b1d1d;
+    background-color: #181818;
     border-radius: 8px 8px 0px 0px;
 }
 
